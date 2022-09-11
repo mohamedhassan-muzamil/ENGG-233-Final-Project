@@ -1,7 +1,7 @@
 import numpy as np
 class FileIO:
     def __init__(self):
-        self.filePath = "C:\\Users\\hamoo\\Desktop\\HelloWorldProject\\Project\\CalgaryWeather.csv"
+        self.filePath = "Insert CalgaryWeather.csv directory here"
 
     def read_File(self):
         self.dataTable = (np.loadtxt(self.filePath, delimiter= ',', skiprows=1,
