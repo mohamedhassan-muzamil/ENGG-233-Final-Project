@@ -14,7 +14,7 @@ def drawLineGraph(x,y,title,xlabel,ylabel):
     pyplot.plot(x,y,marker='o')
     pyplot.show()
 
-Calgary_Weather = readFile("C:\\Users\\hamoo\\Desktop\\HelloWorldProject\\Project\\CalgaryWeather.csv")
+Calgary_Weather = readFile("Insert CalgaryWeather.csv directory here")
 AvgTempAnnual_List = []
 j = 11
 k = 0
